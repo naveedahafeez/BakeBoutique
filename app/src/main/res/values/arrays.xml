@@ -1,0 +1,22 @@
+<resources>
+    <string-array name="pakistani_countries">
+        <item>Pakistan</item>
+    <item>Canada</item>
+        <item>United Kingdom </item>
+        <item>Iran</item>
+        <item>Saudia Arabia</item>
+    </string-array>
+
+    <string-array name="pakistani_cities">
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+        <item>Faisalabad</item>
+        <item>Multan</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Sialkot</item>
+        <item>Gujranwala</item>
+    </string-array>
+</resources>

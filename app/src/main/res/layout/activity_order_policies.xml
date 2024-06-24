@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Order_Policies"
+    android:background="@color/purplelight">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Order Policies"
+android:textSize="24sp"
+android:fontFamily="@font/bold"
+android:textColor="@color/purple"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="56dp"/>
+
+<TextView
+android:layout_marginStart="20dp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Please read our order policies carefully before placing an order."
+android:textSize="18sp"
+android:fontFamily="@font/bold"
+android:textColor="@android:color/black"
+android:layout_marginTop="136dp"/>
+
+<TextView
+android:id="@+id/order_policy_delivery"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:text="Delivery Times:"
+android:textSize="18sp"
+android:textStyle="bold"
+android:fontFamily="@font/bold"
+android:layout_marginTop="350dp"/>
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="We strive to deliver orders within 2-3 business days. However, delivery times may vary depending on the location and availability of products. Please refer to the delivery schedule provided during checkout for more information."
+android:textSize="16sp"
+android:layout_marginStart="20dp"
+android:layout_marginTop="380dp"/>
+
+<TextView
+android:layout_marginStart="20dp"
+android:id="@+id/order_policy_cancellation"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Cancellation Policy:"
+android:fontFamily="@font/bold"
+android:textSize="18sp"
+android:textStyle="bold"
+android:layout_marginTop="220dp"/>
+
+<TextView
+android:layout_marginStart="20dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Orders can be cancelled within 24 hours of placing the order. After this period, cancellations may not be possible, especially if the order has already been processed or shipped."
+android:textSize="16sp"
+android:layout_marginTop="250dp"/>
+
+    </RelativeLayout>

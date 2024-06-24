@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/purplelight"
+    tools:context=".Customer_Support"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_customer_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Support"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/purple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/subtitle_contact_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Information:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bold"
+        android:layout_marginStart="32dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/title_customer_support"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/text_contact_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: support@bakeboutique.com\nPhone: 123-456-7890"
+        android:textSize="16sp"
+        android:fontFamily="@font/reg"
+        android:layout_marginStart="32dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/subtitle_contact_info"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_marginStart="32dp"
+        android:id="@+id/subtitle_support_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support Hours:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/text_contact_info"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/text_support_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monday_to_friday_9_00_am_5_00_pm_nsaturday_10_00_am_2_00_pm_nsunday_closed"
+        android:textSize="16sp"
+        android:fontFamily="@font/reg"
+        android:layout_marginStart="32dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/subtitle_support_hours"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

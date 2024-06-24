@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkout Information"
+        android:gravity="center"
+        android:textColor="@color/purple"
+        android:textSize="26sp"
+        android:fontFamily="@font/bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/totalBillTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:layout_below="@id/header"
+        android:layout_marginTop="26dp"
+        android:text="Bill Information"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/totalBillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:fontFamily="@font/reg"
+        android:layout_marginTop="56dp"
+        android:text="Total: 0 Rs"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <!-- User Information Form -->
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/reg"
+        android:paddingStart="10dp"
+        android:layout_marginStart="10dp"
+
+        android:background="@drawable/custom_background"
+        android:layout_below="@id/totalBillTextView"
+        android:layout_marginTop="24dp"
+        android:hint="First Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/reg"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="10dp"
+
+        android:layout_marginStart="10dp"
+        android:background="@drawable/custom_background"
+        android:layout_below="@id/firstNameEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Last Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/reg"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="10dp"
+
+        android:background="@drawable/custom_background"
+        android:layout_below="@id/lastNameEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/reg"
+        android:paddingStart="10dp"
+
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/custom_background"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Phone Number"
+        android:layout_marginStart="10dp"
+        android:inputType="phone"/>
+
+    <!-- Checkout Button -->
+    <Button
+        android:id="@+id/checkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/phoneNumberEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Checkout"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

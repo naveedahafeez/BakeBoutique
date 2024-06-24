@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/purplelight"
+    tools:context=".Faqs_Screen"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_faq_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:textSize="24sp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/purple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"/>
+
+    <TextView
+        android:id="@+id/faq_question_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q: What types of payment do you accept?"
+        android:textSize="18sp"
+        android:fontFamily="@font/bold"
+        android:layout_below="@id/tv_faq_title"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/faq_answer_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A: We accept cash, credit/debit cards, and mobile payment methods such as Apple Pay and Google Pay."
+        android:textSize="16sp"
+        android:fontFamily="@font/reg"
+        android:layout_below="@id/faq_question_1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/faq_question_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q: Do you offer custom cake designs?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/faq_answer_1"
+        android:fontFamily="@font/bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/faq_answer_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A: Yes, we specialize in custom cake designs. Please contact us in advance to discuss your requirements and place a custom order."
+        android:textSize="16sp"
+        android:layout_below="@id/faq_question_2"
+        android:fontFamily="@font/reg"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

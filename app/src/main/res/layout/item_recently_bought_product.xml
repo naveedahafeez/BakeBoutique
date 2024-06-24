@@ -1,0 +1,57 @@
+<!-- item_recently_bought_product.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="22dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/images111"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/productNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/productImageView"
+            android:layout_marginStart="16dp"
+            android:text="Product Name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productNameTextView"
+            android:layout_toEndOf="@id/productImageView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="Price"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buyAgainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productPriceTextView"
+            android:layout_toEndOf="@id/productImageView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Buy Again" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

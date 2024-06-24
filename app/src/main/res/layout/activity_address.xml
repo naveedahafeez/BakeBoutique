@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/addressTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Address"
+        android:textSize="24sp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/purple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"/>
+
+    <EditText
+        android:id="@+id/NameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+
+        android:layout_below="@id/addressTitleTextView"
+        android:layout_marginTop="16dp"/>
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your address"
+        android:layout_below="@id/addressTitleTextView"
+        android:layout_marginTop="76dp"/>
+
+    <EditText
+        android:id="@+id/additionalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Addional Message "
+        android:layout_below="@id/addressTitleTextView"
+        android:layout_marginTop="130dp"/>
+    <TextView
+        android:id="@+id/totalBillText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bill:"
+        android:textSize="18sp"
+        android:fontFamily="@font/bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/addressEditText"
+        android:layout_marginTop="64dp"/>
+
+
+    <TextView
+        android:id="@+id/totalBillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bill: 0 Rs"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/addressEditText"
+        android:layout_marginTop="84dp"/>
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/totalBillTextView"
+        android:layout_marginTop="32dp"/>
+</RelativeLayout>

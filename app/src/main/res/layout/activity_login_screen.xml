@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Screen"
+    android:background="@color/purplelight">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/bake_boutique"
+        android:textColor="@color/black"
+        android:fontFamily="@font/reg"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp"
+        />
+
+        <TextView
+            android:id="@+id/textViewWelcomeBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_back"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp"
+            android:fontFamily="@font/bold"/>
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_to_continue"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/textViewWelcomeBack"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/reg"/>
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailtag"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewWelcomeBack"
+      android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/bold"/>
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20dp"
+            android:background="@drawable/custom_background"
+            android:layout_below="@id/textViewLogin"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textViewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passwordtag"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="66dp"
+        android:fontFamily="@font/bold"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/password"
+            android:paddingStart="20dp"
+            android:inputType="textPassword"
+            android:layout_below="@id/textViewPass"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/custom_background"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="10dp"/>
+
+        <CheckBox
+            android:id="@+id/checkboxRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_me"
+            android:textColor="@color/black"
+            android:layout_below="@id/editTextPassword"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/reg"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tvLoginWith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or_login_with"
+        android:layout_below="@+id/tvForgotPassword"
+        android:fontFamily="@font/reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:text="@string/login_confirm"
+            android:layout_below="@+id/checkboxRememberMe"
+            android:background="@drawable/rounded_button_background"
+            android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/editTextGoggle"
+        android:layout_width="379dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvLoginWith"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="32dp"
+        android:paddingStart="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_background"
+        android:drawableStart="@drawable/googleicon"
+
+        android:fontFamily="@font/reg"
+        android:textSize="20dp"
+        android:text="@string/continue_with_google"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/NoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_acoount"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/editTextGoggle"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="66dp"
+        android:fontFamily="@font/reg"/>
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_2"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/editTextGoggle"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="66dp"
+        android:fontFamily="@font/bold"/>
+
+</RelativeLayout>

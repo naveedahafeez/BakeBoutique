@@ -1,0 +1,31 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/purplelight">
+
+    <TextView
+        android:id="@+id/recentlyBoughtTitle"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Recently Bought Products"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp"
+        android:paddingTop="40dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bold"
+        android:layout_marginTop="16dp"
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recentlyBoughtRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recentlyBoughtTitle"
+      android:paddingTop="0dp"
+        android:padding="10dp"/>
+
+</RelativeLayout>

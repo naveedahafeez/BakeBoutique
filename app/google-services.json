@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "780744737586",
+    "firebase_url": "https://bakeboutique-d251d-default-rtdb.firebaseio.com",
+    "project_id": "bakeboutique-d251d",
+    "storage_bucket": "bakeboutique-d251d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780744737586:android:33705072f6fb282cc90d2b",
+        "android_client_info": {
+          "package_name": "com.example.bakeboutique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780744737586-vmsbgpd5h04vpl00blmheervfsb808am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bakeboutique",
+            "certificate_hash": "523e13b40d80410c178d054ca194a4d016e634b0"
+          }
+        },
+        {
+          "client_id": "780744737586-mfji79cmeiaajirklmeajfprvsha0560.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWslv-7jwO9p3Mw11nJzRNPBM2NSVs8vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780744737586-mfji79cmeiaajirklmeajfprvsha0560.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purplelight"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:fontFamily="@font/bold"
+        android:textSize="24sp"
+        android:textColor="@color/purple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"/>
+<TextView
+    android:id="@+id/tv_about_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/reg"
+    android:text="BakeBoutique is a premium bakery specializing in artisanal cakes and sweets. Our journey began in 2010, when our founder, Sarah Smith, decided to turn her passion for baking into a business. From humble beginnings in her kitchen, BakeBoutique has grown into a beloved local establishment known for its delicious treats and exceptional customer service. Our mission is to delight our customers with handcrafted desserts made from the finest ingredients. We value quality, creativity, and customer satisfaction above all else."
+    android:textSize="16sp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="120dp"
+    android:lineSpacingMultiplier="1.2"/>
+
+</RelativeLayout>

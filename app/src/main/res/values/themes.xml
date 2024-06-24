@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BakeBoutique" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+<color name="btn_colour">#E87855</color>
+    <style name="Theme.BakeBoutique" parent="Base.Theme.BakeBoutique" />
+
+
+<style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+<item name="android:color">@color/purplelight</item>
+</style>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purplelight"
+    tools:context=".Home_Page">
+
+
+<FrameLayout
+    android:id="@+id/frame_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/divider"/>
+
+<com.google.android.material.divider.MaterialDivider
+    android:layout_width="match_parent"
+    android:layout_height="4dp"
+    app:dividerColor="@color/primary_text_color"
+    android:id="@+id/divider"
+    android:layout_above="@id/bottom_navigation"/>
+
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_alignParentBottom="true"
+    app:menu="@menu/home_menu"
+    android:background="@color/white"
+    app:itemTextColor="@color/black"
+    app:itemIconSize="30dp"
+    app:labelVisibilityMode="labeled"
+    app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"/>
+
+
+</RelativeLayout>

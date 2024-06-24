@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="header" type="id" />
+    <item name="cv1" type="id" />
+    <item name="image_slider" type="id" />
+    <item name="popularrv" type="id" />
+    <item name="productPriceTextView" type="id" />
+    <item name="productImageView" type="id" />
+    <item name="productNameTextView" type="id" />
+    <item name="buyAgainButton" type="id" />
+    <item name="welcome_text" type="id" />
+    <item name="pending_orders_layout" type="id" />
+    <item name="pending_orders_count" type="id" />
+    <item name="completed_orders_layout" type="id" />
+    <item name="completed_orders_count" type="id" />
+    <item name="total_earnings_layout" type="id" />
+    <item name="total_earnings" type="id" />
+    <item name="admin_profile_button" type="id" />
+    <item name="view_items_button" type="id" />
+    <item name="logout_button" type="id" />
+    <item name="profile_password" type="id" />
+    <item name="edit_profile_button" type="id" />
+    <item name="profile_picture" type="id" />
+    <item name="profile_email" type="id" />
+    <item name="profile_phone" type="id" />
+    <item name="bottom_search" type="id" />
+</resources>

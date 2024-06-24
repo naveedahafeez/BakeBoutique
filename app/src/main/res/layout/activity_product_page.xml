@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purplelight"
+    tools:context=".ProductPageActivity">
+
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="Product Details "
+
+    android:layout_marginTop="10dp"
+    android:textSize="30dp"
+    android:fontFamily="@font/reg"
+/>
+
+
+<ImageView
+    android:id="@+id/imgProduct"
+    android:layout_width="250dp"
+    android:layout_centerHorizontal="true"
+    android:layout_height="300dp"
+    android:layout_marginTop="50dp"
+    android:src="@drawable/images78"
+    android:layout_marginBottom="16dp" />
+
+<TextView
+    android:id="@+id/tvProductTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imgProduct"
+    android:fontFamily="@font/bold"
+    android:layout_marginStart="30dp"
+    android:text="Choclate CupCake"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="8dp" />
+
+<TextView
+    android:id="@+id/tvProductPrice"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="30dp"
+    android:layout_below="@id/tvProductTitle"
+    android:text="Rp200.000 / pcs"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tvProductPrice"
+    android:layout_marginStart="30dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/btnDecrease"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/minus"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:id="@+id/btnIncrease"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="+"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@android:color/white" />
+</LinearLayout>
+
+<Button
+    android:id="@+id/btnAddToCart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="490dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="30dp"
+    android:text="@string/add_to_cart"
+    android:background="@drawable/rounded_button_background"
+    android:textColor="@android:color/white" />
+
+<TextView
+    android:id="@+id/tvProductDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btnAddToCart"
+    android:fontFamily="@font/reg"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="16dp"
+    android:text="A choclate cupcake is a savory delight that combines a crumbly, buttery crust with a creamy and cheesy filling. These mini treats offer a harmonious blend of sweet and savory flavors, making them a versatile and mouthwatering snack or appetizer. Enjoy them warm for a delightful fusion of textures and flavors."
+    android:textSize="16sp"
+    android:lineSpacingExtra="4dp" />
+
+</RelativeLayout>

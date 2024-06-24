@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purplelight"
+    tools:context=".ProfileFragment">
+
+
+        <TextView
+
+            android:id="@+id/tv_product_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:textAlignment="center"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/reg"
+            android:layout_centerHorizontal="true"
+            android:text="Personal Details"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+
+    <ImageView
+        android:id="@+id/bell_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/bell"
+        android:contentDescription="Notification Icon" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/myprofile"
+        android:contentDescription="Profile Image" />
+
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Naveeda Hafeez"
+        android:fontFamily="@font/bold"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name"
+        android:layout_marginTop="44dp"
+        android:layout_marginStart="20dp"
+        android:text="Account"
+        android:fontFamily="@font/reg"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_customer_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_account"
+        android:layout_marginTop="18dp"
+        android:text="Customer Support"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_customer_support"
+        android:layout_marginTop="18dp"
+        android:text="Privacy Policy"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/black" />
+
+
+
+
+    <Button
+        android:id="@+id/btn_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_privacy_policy"
+        android:layout_marginTop="18dp"
+        android:text="Language"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/black" />
+
+
+
+    <Button
+        android:id="@+id/btn_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_language"
+        android:layout_marginTop="18dp"
+        android:text="About Us "
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/black" />
+
+
+
+    <Button
+        android:id="@+id/btn_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_about_us"
+        android:layout_marginTop="18dp"
+        android:text="FAQs"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>
+

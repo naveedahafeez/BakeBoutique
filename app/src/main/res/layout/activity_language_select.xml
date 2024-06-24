@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".language_select"
+    android:padding="16dp">
+
+<TextView
+android:id="@+id/title_language_selection"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Select Language"
+android:fontFamily="@font/bold"
+android:textSize="24sp"
+android:textStyle="bold"
+android:textColor="@color/purple"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="32dp"/>
+
+<RadioGroup
+android:id="@+id/radio_group_languages"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/title_language_selection"
+android:layout_marginTop="32dp">
+
+<RadioButton
+    android:id="@+id/radio_english"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="English"
+    android:textSize="18sp"
+    android:textColor="@android:color/black"/>
+
+<RadioButton
+    android:id="@+id/radio_spanish"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Urdu"
+    android:textSize="18sp"
+    android:textColor="@android:color/black"
+    android:layout_marginTop="16dp"/>
+
+</RadioGroup>
+
+<Button
+android:id="@+id/btn_save_language"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Save"
+android:textSize="18sp"
+android:textStyle="bold"
+android:background="@drawable/custom_background"
+android:textColor="@android:color/white"
+android:layout_centerHorizontal="true"
+android:layout_below="@id/radio_group_languages"
+android:layout_marginTop="32dp"/>
+
+    </RelativeLayout>
